@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wild Circus</title>
+    <link rel="stylesheet" href="main.css"/>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="shortcut icon" href="https://content.screencast.com/users/aliashkevich/folders/wild_circus_files/media/0651c4c3-a525-44ab-b95b-585f5d6364fe/lion_logo.png"/>
+  </head>
+  <body>
+    <div class="wc-header">
+      <header>      
+        <img src="https://content.screencast.com/users/aliashkevich/folders/wild_circus_files/media/0651c4c3-a525-44ab-b95b-585f5d6364fe/lion_logo.png" alt="Wild Circus Logo">
+        <h1>Wild Circus</h1>
+        <nav>
+          <ul>
+            <li id="performances-tab" class="active-tab" onclick="switchTab(event)"><a href="#performances">Performances</a></li>
+            <li id="aboutus-tab" onclick="switchTab(event)"><a href="#aboutus">About Us</a></li>
+            <li id="prices-tab" onclick="switchTab(event)"><a href="#prices">Prices</a></li>
+            <li id="contact-tab" onclick="switchTab(event)"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    
+    <div class="wc-content">
+      <section id="performances-page" class="tab-content active-page">
+        <h2>Performances</h2>
+        <ul class="perfomances-grid">
+          <!-- performance 1 -->
+          <li>
+            <h3>Laugh</h3>
+            <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+            <img class="clown" src="https://content.screencast.com/users/aliashkevich/folders/wild_circus_files/media/1385c8f9-565c-4de0-b21a-3936e9e73e8c/clown.png" alt="Funny Clown">
+          </li>
+          <!-- performance 2 -->
+          <li>
+            <h3>Dream</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+            <img class="hat" src="https://content.screencast.com/users/aliashkevich/folders/wild_circus_files/media/be82c143-5410-48ca-9836-728873e2c2bf/hat.png" alt="Magic Hat">
+          </li>
+          <!-- performance 3 -->
+          <li>
+            <h3>Marvel at</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+            <img class="lion" src="https://content.screencast.com/users/aliashkevich/folders/wild_circus_files/media/1a7316c6-a590-4132-9ebc-27a2b7eb212b/lion.png" alt="Circus Lion">
+          </li>
+        </ul>
+      </section>    
+      
+      <section id="aboutus-page" class="tab-content hidden-page">
+        <h2>About Us</h2>
+        <h4 class="focus-in-expand">Every production starts with a dream or an artistic vision.</h4>
+        <h4 class="focus-in-expand">Our passion is bringing those dreams and visions to life.</h4>
+        <img src="https://content.screencast.com/users/aliashkevich/folders/wild_circus_files/media/3a4c736d-3eef-4a77-87e6-3e1620a6ef0f/circus_tents.png" alt="Circus Tents" class="bg">
+        <div class="aboutus">
+          <p>For more than 60 years Wild Circus has been realising dreams by staging some of the world’s most famous shows and most memorable productions in cities across the globe.</p>
+          <div class="video-iframe-left">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Zodfui8Hdsg" allowfullscreen></iframe>
+          </div>
+          <p>Wild Circus has a gilded history of success in providing entertainment in complex and challenging environments. We are able to operate successfully throughout the world as we pay particular attention to cultural traditions and have unparalleled experience of producing shows.</p>
+          <div class="video-iframe-right">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YVEW7JI3aJw" allowfullscreen></iframe>
+          </div>
+          <p>Wild Circus prides itself on delivering high-quality, artistic entertainment that makes audiences laugh and giggle, and gasp. Wild Circus believes performance art exists to push the boundaries of the human imagination, entertainment exists to bring family, friends and audiences together. </p>
+          <div class="video-iframe-left">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4TiKajdOKSY" allowfullscreen></iframe>
+          </div>
+          <p>We know how to manage each step of the creative process so that an artistic vision can be brought to life. Our costumes are handmade. Our animals are trained by us. Our sets are painted in the barns on our farm. We burn the midnight oil to conjure new visions for the show. It's all we do.</p>
+          <h3>Circus is our job, our life, our love. Come to Wild Circus and be a part of the magic!</h3>
+        </div>
+      </section>    
+    
+      <section id="prices-page" class="tab-content hidden-page">
+        <h2>Prices</h2>
+        <table>        
+          <thead>
+            <tr>
+              <th></th>
+              <th class="day">Sun</th>
+              <th class="day">Mon</th>
+              <th class="day">Tue</th>
+              <th class="day">Wed</th>
+              <th class="day">Thu</th>
+              <th class="day">Fri</th>
+              <th class="day">Sat</th>            
+            </tr>
+          </thead>
+          
+          <tbody>
+            <tr>
+              <th class="customer">Adults</th>
+              <th>30 €</th>
+              <th>24 €</th>
+              <th>24 €</th>
+              <th>30 €</th>
+              <th>24 €</th>
+              <th>24 €</th>
+              <th>30 €</th>
+            </tr>          
+            <tr>
+              <th class="customer">Children under 12</th>
+              <th>15 €</th>
+              <th>12 €</th>
+              <th>12 €</th>
+              <th>15 €</th>
+              <th>12 €</th>
+              <th>12 €</th>
+              <th>15 €</th>
+            </tr>          
+            <tr>
+              <th class="customer">Groups (more than 10)</th>
+              <th>20 €</th>
+              <th>18 €</th>
+              <th>18 €</th>
+              <th>20 €</th>
+              <th>18 €</th>
+              <th>18 €</th>
+              <th>20 €</th>
+            </tr>          
+            <tr>
+              <th class="customer">Schools</th>
+              <th>18 €</th>
+              <th>15 €</th>
+              <th>15 €</th>
+              <th>18 €</th>
+              <th>15 €</th>
+              <th>15 €</th>
+              <th>18 €</th>
+            </tr>          
+          </tbody>
+        </table>
+      </section>        
+      
+      <section id="contact-page" class="tab-content hidden-page">
+        <h2>Contact Us</h2>
+        <form action="#" id="contact-form" onsubmit="submitUserMessage(event)"> 
+          <p>Got any question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+          <label for="uname">Name</label>
+          <input id="uname" type="text" name="uname">        
+          <label for="email">Email*</label>
+          <input id="email" type="text" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zAA-Z]{2,4}" maxlength="254" required>
+          <label for="message">Message*</label>
+          <textarea id="message" name="message" rows="8" cols="50" maxlength="300" required></textarea>        
+          <button type="submit" form="contact-form">Send Message</button>
+        </form>
+      </section>
+    </div>  
+
+    <div class="wc-footer">    
+      <footer>
+        <p>Wild Circus by <strong>Aliashkevich Anastasiya</strong></p>
+        <div class="footer-grid">
+          <a href="https://www.codecademy.com/users/anastasiya.aliashkevich/achievements" target="_blank"><img alt="Codecademy" class="footer-img" src="https://content.screencast.com/users/aliashkevich/folders/wild_circus_files/media/5b5c99f3-ee41-4bed-b01f-e16e3366970a/codecademy_logo.png"></a>
+          <a href="https://www.sololearn.com/Profile/12658265"  target="_blank"><img alt="Sololearn" class="footer-img" src="https://content.screencast.com/users/aliashkevich/folders/wild_circus_files/media/c82fb136-81cc-4770-9398-1225e7a405a1/sololearn_logo.png"></a>
+          <a href="https://wildcodeschool.com/" target="_blank"><img class="footer-img" src="https://content.screencast.com/users/aliashkevich/folders/wild_circus_files/media/a3988e3f-8682-436f-b07a-5e6e697a35db/wild_code_school_logo.png" alt="Wild Code school"></a>    
+        </div>
+        <p>20th February, 2019</p>
+      </footer>
+    </div>
+  </body>
+</html>
